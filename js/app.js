@@ -1,5 +1,5 @@
 var app = {
-	offCanvas: true,
+    offCanvas: true,
     offCanvasMenu: '#navbar .menu',
     init: function() {
         app.homeCycleInit();
@@ -7,23 +7,71 @@ var app = {
         app.offCanvasInit();
         app.offCanvasTrigger();
         app.handleMobileNav();
+        app.accordionHandler();
+        app.detailsCycleInit();
+        app.detailsInitMaps();
     },
     onResize: function() {
 
     },
-    handleMobileNav: function() {
-      if (app.isPhone === true) {
-        // jQuery('.sub-menu').hide();
-      }
+    accordionHandler: function() {
+        jQuery('.accordion .head').click(function() {
+            var $accordion = jQuery(this).parents('.accordion');
+            if (!$accordion.hasClass('opened')) {
+                jQuery('.accordion').removeClass('opened');
+                jQuery('.accordion .content').slideUp();
 
-      jQuery(document).on('click', '#offcanvas .menu-item-has-children > a', function(){
-            if(!jQuery(this).parent().hasClass('opened')) {
+                $accordion.addClass('opened');
+                $accordion.find('.content').slideDown();
+            } else {
+                $accordion.removeClass('opened');
+                $accordion.find('.content').slideUp();
+            }
+        });
+    },
+    handleMobileNav: function() {
+        if (app.isPhone === true) {
+            // jQuery('.sub-menu').hide();
+        }
+
+        jQuery(document).on('click', '#offcanvas .menu-item-has-children > a', function() {
+            if (!jQuery(this).parent().hasClass('opened')) {
                 jQuery(this).parent().addClass('opened');
                 return false;
             } else {
                 jQuery(this).parent().removeClass('opened');
             }
-      });
+        });
+    },
+    detailsInitMaps: function() {
+        if(!jQuery('#content').hasClass('details')) {
+            return false;
+        }
+
+        function initialize() {
+            var lang = new google.maps.LatLng(5.962528, 80.706668);
+            var mapOptions = {
+                center: lang,
+                zoom: 16,
+                scrollwheel: false,
+                navigationControl: true,
+                mapTypeControl: false,
+                scaleControl: true,
+                draggable: true,
+                mapTypeId: google.maps.MapTypeId.ROADMAP,
+                disableDefaultUI: true
+            }
+            var map = new google.maps.Map(document.getElementById('maps'),
+                mapOptions);
+
+            var marker = new google.maps.Marker({
+                position: lang,
+                map: map,
+                icon: '../images/map-marker.png'
+            });
+        }
+
+        google.maps.event.addDomListener(window, 'load', initialize);
     },
     homeCycleInit: function() {
         jQuery('.home .slideshow').cycle({
@@ -32,8 +80,21 @@ var app = {
             slides: '.slide'
         });
     },
+    detailsCycleInit: function() {
+        jQuery('.details #slideshow').cycle({
+            timeout: 0,
+            manualSpeed: 800,
+            slides: '.slide',
+            fx: 'carousel',
+            carouselVisible: 3,
+            // carouselSlideDimension: 980,
+            carouselFluid: true,
+            next: '.browse.right',
+            prev: '.browse.left',
+        });
+    },
     homeCarouselInit: function() {
-        
+
 
         // browse
         var owl = jQuery('.blog-preview .row');
@@ -44,8 +105,8 @@ var app = {
 
         // Go to the next item
         jQuery('.blog-preview .browse .right').click(function() {
-                owl.trigger('next.owl.carousel');
-            })
+            owl.trigger('next.owl.carousel');
+        })
 
         // Go to the previous item
         jQuery('.blog-preview .browse .left').click(function() {

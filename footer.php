@@ -39,6 +39,7 @@
 <script src="./js/jquery-1.11.3.min.js"></script>
 <script src="./js/jquery.cycle2.min.js"></script>
 <script src="./js/owl.carousel.min.js"></script>
+<script src="./js/jquery.cycle2.carousel.min.js"></script>
 <script src="./js/app.js"></script>
 </body>
 </html>
