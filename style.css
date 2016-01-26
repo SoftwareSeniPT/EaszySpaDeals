@@ -535,7 +535,7 @@ button.btn {
 .features li {
     float: left;
     min-height: 1px;
-    width: 25%;
+    width: 16.66%;
     padding-right: 20px;
     padding-left: 20px;
     text-align: center;
@@ -559,7 +559,6 @@ button.btn {
 
 .features .container {
     border-top: 1px solid #ddd;
-    border-bottom: 1px solid #ddd;
 }
 
 .features li.hair:before {
@@ -579,56 +578,39 @@ button.btn {
 .special-gift .item {
     padding-left: 0;
     padding-right: 0;
+    border-color: #CCC1B9;
+    border-width: 1.5px;
+    border-style: solid;
+    background-color: white;
 }
 
-.special-gift img {
-    vertical-align: top;
-    transition: -webkit-transform 0.5s cubic-bezier(0.77, 0, 0.175, 1);
-    transition: transform 0.5s cubic-bezier(0.77, 0, 0.175, 1);
-    transition: transform 0.5s cubic-bezier(0.77, 0, 0.175, 1), -webkit-transform 0.5s cubic-bezier(0.77, 0, 0.175, 1);
+.special-gift .item .price {
+    margin: 10px 0;
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #FF6634;
+}
+
+.special-gift .item a img {
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
 }
 
 .special-gift {
     padding: 70px 0;
+    background-color: #FFE8C9;
 }
 
 .special-gift .title {
-    font-size: 24px;
-    line-height: 1.2;
-}
-
-.special-gift .date {
-    color: #8B8B8B;
-}
-
-.special-gift p {
-    text-align: justify;
-    line-height: 1.6;
-    margin: 10px 0;
-    padding-bottom: 12px;
-}
-
-.read-more a:after {
-    content: "\f0da";
-    font-family: FontAwesome;
-    font-size: 22px;
-    vertical-align: middle;
-    margin-left: 6px;
-}
-
-.special-gift .read-more {
-    border-top: 2px solid #ff6634;
-    text-align: right;
-    text-transform: uppercase;
+    font-size: 1em;
     font-weight: 600;
-    color: #828282;
-    padding: 6px 0;
-}
-
-.read-more a {
-    color: #6A6A6A;
-    text-transform: uppercase;
-    font-weight: 600;
+    text-align: center;
+    margin-top: 12px;
+    margin-bottom: 12px;
 }
 
 .special-gift .browse span {
@@ -652,17 +634,19 @@ button.btn {
 .special-gift .container {
     position: relative;
 }
-
-.special-gift .item a {
-    display: block;
-    margin-bottom: 10px;
-    overflow: hidden;
-    line-height: 1.4;
+.special-gift .select-btn {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.special-gift .item a.btn {
+    font-size: 1em;
+    padding: 2px 20px;
+    border-radius: 2px;
 }
 
 .special-gift .item a:hover img {
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
+    filter: grayscale(100%);
 }
 
 .browse {

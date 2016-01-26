@@ -56,10 +56,12 @@
 		<section class="features">
 			<div class="container">
 				<ul class="row">
-					<li class="spa">Spa & Massage</li>
-					<li class="hair">Hair & Beauty</li>
-					<li class="gift">Gifts & Cards</li>
-					<li class="accomodation">Accomodation</li>
+					<li class="body">body</li>
+					<li class="face">face</li>
+					<li class="hair">hair</li>
+					<li class="nails">nails</li>
+					<li class="foot">foot</li>
+					<li class="aesthetic">aesthetic</li>
 				</ul>
 			</div>
 		</section>
@@ -77,75 +79,63 @@
 				</div>
 				<div class="row">
 					<div class="item">
+						<div class="price">55$</div>
 						<a href="#">
 							<img src="./images/spa1.png" alt="">
 						</a>
-						<div class="date">May 21, 2015</div>
-						<div class="title"><a href="#">Invest in a Healthy Tomorrow</a></div>
-						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-
-						<div class="read-more">
-							<a href="#">Read more</a>
+						<div class="title"><a href="#">Natural Spa</a></div>
+						<div class="select-btn">
+							<a href="#" class="btn">select</a>
 						</div>
 					</div>
 					<div class="item">
+						<div class="price">55$</div>
 						<a href="#">
 							<img src="./images/spa2.png" alt="">
 						</a>
-						<div class="date">May 21, 2015</div>
-						<div class="title"><a href="#">Invest in a Healthy Tomorrow</a></div>
-						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-
-						<div class="read-more">
-							<a href="#">Read more</a>
+						<div class="title"><a href="#">Natural Spa</a></div>
+						<div class="select-btn">
+							<a href="#" class="btn">select</a>
 						</div>
 					</div>
 					<div class="item">
+						<div class="price">55$</div>
 						<a href="#">
 							<img src="./images/spa3.png" alt="">
 						</a>
-						<div class="date">May 21, 2015</div>
-						<div class="title"><a href="#">Invest in a Healthy Tomorrow</a></div>
-						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-
-						<div class="read-more">
-							<a href="#">Read more</a>
+						<div class="title"><a href="#">Natural Spa</a></div>
+						<div class="select-btn">
+							<a href="#" class="btn">select</a>
 						</div>
 					</div>
 					<div class="item">
+						<div class="price">55$</div>
 						<a href="#">
 							<img src="./images/spa1.png" alt="">
 						</a>
-						<div class="date">May 21, 2015</div>
-						<div class="title"><a href="#">Invest in a Healthy Tomorrow</a></div>
-						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-
-						<div class="read-more">
-							<a href="#">Read more</a>
+						<div class="title"><a href="#">Natural Spa</a></div>
+						<div class="select-btn">
+							<a href="#" class="btn">select</a>
 						</div>
 					</div>
 					<div class="item">
+						<div class="price">55$</div>
 						<a href="#">
 							<img src="./images/spa2.png" alt="">
 						</a>
-						<div class="date">May 21, 2015</div>
-						<div class="title"><a href="#">Invest in a Healthy Tomorrow</a></div>
-						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-
-						<div class="read-more">
-							<a href="#">Read more</a>
+						<div class="title"><a href="#">Natural Spa</a></div>
+						<div class="select-btn">
+							<a href="#" class="btn">select</a>
 						</div>
 					</div>
 					<div class="item">
+						<div class="price">55$</div>
 						<a href="#">
 							<img src="./images/spa3.png" alt="">
 						</a>
-						<div class="date">May 21, 2015</div>
-						<div class="title"><a href="#">Invest in a Healthy Tomorrow</a></div>
-						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-
-						<div class="read-more">
-							<a href="#">Read more</a>
+						<div class="title"><a href="#">Natural Spa</a></div>
+						<div class="select-btn">
+							<a href="#" class="btn">select</a>
 						</div>
 					</div>
 				</div>
