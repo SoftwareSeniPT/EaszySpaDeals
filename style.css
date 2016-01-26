@@ -574,6 +574,107 @@ button.btn {
     background-position: -304px -15px;
 }
 
+/* special-gift */
+
+.special-gift .item {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.special-gift img {
+    vertical-align: top;
+    transition: -webkit-transform 0.5s cubic-bezier(0.77, 0, 0.175, 1);
+    transition: transform 0.5s cubic-bezier(0.77, 0, 0.175, 1);
+    transition: transform 0.5s cubic-bezier(0.77, 0, 0.175, 1), -webkit-transform 0.5s cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+.special-gift {
+    padding: 70px 0;
+}
+
+.special-gift .title {
+    font-size: 24px;
+    line-height: 1.2;
+}
+
+.special-gift .date {
+    color: #8B8B8B;
+}
+
+.special-gift p {
+    text-align: justify;
+    line-height: 1.6;
+    margin: 10px 0;
+    padding-bottom: 12px;
+}
+
+.read-more a:after {
+    content: "\f0da";
+    font-family: FontAwesome;
+    font-size: 22px;
+    vertical-align: middle;
+    margin-left: 6px;
+}
+
+.special-gift .read-more {
+    border-top: 2px solid #ff6634;
+    text-align: right;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #828282;
+    padding: 6px 0;
+}
+
+.read-more a {
+    color: #6A6A6A;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.special-gift .browse span {
+    height: 30px;
+    width: 30px;
+    border: 3px solid;
+    display: inline-block;
+    border-radius: 50%;
+    border-color: #FFCC33;
+    color: #FFCC33;
+    padding: 1px 0;
+    text-align: center;
+    cursor: pointer;
+}
+
+.special-gift .browse span:hover {
+    border-color: #FF7200;
+    color: #FF7200;
+}
+
+.special-gift .container {
+    position: relative;
+}
+
+.special-gift .item a {
+    display: block;
+    margin-bottom: 10px;
+    overflow: hidden;
+    line-height: 1.4;
+}
+
+.special-gift .item a:hover img {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.browse {
+    position: absolute;
+    top: 0;
+    right: 15px;
+}
+
+.special-gift .row {
+    margin: 0;
+}
+
 
 /* blog-preview */
 
@@ -582,8 +683,6 @@ button.btn {
     padding-right: 0;
 }
 
-
-/* blog-preview */
 
 .blog-preview img {
     vertical-align: top;
@@ -675,6 +774,9 @@ button.btn {
     right: 15px;
 }
 
+.blog-preview .row {
+    margin: 0;
+}
 
 /* Footer */
 
@@ -732,9 +834,7 @@ footer .read-more a {
     color: #FAB781;
 }
 
-.blog-preview .row {
-    margin: 0;
-}
+
 
 
 /* Overlay */

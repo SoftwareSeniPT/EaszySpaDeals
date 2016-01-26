@@ -3,7 +3,7 @@ var app = {
     offCanvasMenu: '#navbar .menu',
     init: function() {
         app.homeCycleInit();
-        app.homeCarouselInit();
+        app.homeBlogCarouselInit();
         app.offCanvasInit();
         app.offCanvasTrigger();
         app.handleMobileNav();
@@ -93,9 +93,7 @@ var app = {
             prev: '.browse.left',
         });
     },
-    homeCarouselInit: function() {
-
-
+    homeBlogCarouselInit: function() {
         // browse
         var owl = jQuery('.blog-preview .row');
 

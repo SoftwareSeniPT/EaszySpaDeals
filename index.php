@@ -1,4 +1,4 @@
-<?php include('header.php');?>
+<?php include 'header.php';?>
 
 	<div id="content" class="home">
 		<section class="hero">
@@ -63,6 +63,94 @@
 				</ul>
 			</div>
 		</section>
+		<section class="special-gift">
+			<div class="container">
+				<h2>SPECIAL GITS & CARDS</h2>
+				<div class="browse">
+					<span class="left">
+						<i class="fa fa-chevron-left"></i>
+					</span>
+
+					<span class="right">
+						<i class="fa fa-chevron-right"></i>
+					</span>
+				</div>
+				<div class="row">
+					<div class="item">
+						<a href="#">
+							<img src="./images/spa1.png" alt="">
+						</a>
+						<div class="date">May 21, 2015</div>
+						<div class="title"><a href="#">Invest in a Healthy Tomorrow</a></div>
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+
+						<div class="read-more">
+							<a href="#">Read more</a>
+						</div>
+					</div>
+					<div class="item">
+						<a href="#">
+							<img src="./images/spa2.png" alt="">
+						</a>
+						<div class="date">May 21, 2015</div>
+						<div class="title"><a href="#">Invest in a Healthy Tomorrow</a></div>
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+
+						<div class="read-more">
+							<a href="#">Read more</a>
+						</div>
+					</div>
+					<div class="item">
+						<a href="#">
+							<img src="./images/spa3.png" alt="">
+						</a>
+						<div class="date">May 21, 2015</div>
+						<div class="title"><a href="#">Invest in a Healthy Tomorrow</a></div>
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+
+						<div class="read-more">
+							<a href="#">Read more</a>
+						</div>
+					</div>
+					<div class="item">
+						<a href="#">
+							<img src="./images/spa1.png" alt="">
+						</a>
+						<div class="date">May 21, 2015</div>
+						<div class="title"><a href="#">Invest in a Healthy Tomorrow</a></div>
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+
+						<div class="read-more">
+							<a href="#">Read more</a>
+						</div>
+					</div>
+					<div class="item">
+						<a href="#">
+							<img src="./images/spa2.png" alt="">
+						</a>
+						<div class="date">May 21, 2015</div>
+						<div class="title"><a href="#">Invest in a Healthy Tomorrow</a></div>
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+
+						<div class="read-more">
+							<a href="#">Read more</a>
+						</div>
+					</div>
+					<div class="item">
+						<a href="#">
+							<img src="./images/spa3.png" alt="">
+						</a>
+						<div class="date">May 21, 2015</div>
+						<div class="title"><a href="#">Invest in a Healthy Tomorrow</a></div>
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+
+						<div class="read-more">
+							<a href="#">Read more</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 		<section class="blog-preview">
 			<div class="container">
 				<h2>Latest Blog</h2>
@@ -98,7 +186,7 @@
 
 						<div class="read-more">
 							<a href="#">Read more</a>
-						</div>						
+						</div>
 					</div>
 					<div class="item">
 						<a href="#">
@@ -110,8 +198,8 @@
 
 						<div class="read-more">
 							<a href="#">Read more</a>
-						</div>						
-					</div>					
+						</div>
+					</div>
 					<div class="item">
 						<a href="#">
 							<img src="./images/spa1.png" alt="">
@@ -134,7 +222,7 @@
 
 						<div class="read-more">
 							<a href="#">Read more</a>
-						</div>						
+						</div>
 					</div>
 					<div class="item">
 						<a href="#">
@@ -146,11 +234,11 @@
 
 						<div class="read-more">
 							<a href="#">Read more</a>
-						</div>						
+						</div>
 					</div>
 				</div>
 			</div>
 		</section>
 	</div>
 
-<?php include('footer.php');?>
+<?php include 'footer.php';?>
