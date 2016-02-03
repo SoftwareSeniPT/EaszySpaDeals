@@ -1,4 +1,4 @@
-<?php include('header.php');?>
+<?php include 'header.php';?>
 
 	<div id="content" class="home">
 		<section class="hero">
@@ -56,11 +56,89 @@
 		<section class="features">
 			<div class="container">
 				<ul class="row">
-					<li class="spa">Spa & Massage</li>
-					<li class="hair">Hair & Beauty</li>
-					<li class="gift">Gifts & Cards</li>
-					<li class="accomodation">Accomodation</li>
+					<li class="body">body</li>
+					<li class="face">face</li>
+					<li class="hair">hair</li>
+					<li class="nails">nails</li>
+					<li class="foot">foot</li>
+					<li class="aesthetic">aesthetic</li>
 				</ul>
+			</div>
+		</section>
+		<section class="special-gift">
+			<div class="container">
+				<h2>SPECIAL GITS & CARDS</h2>
+				<div class="browse">
+					<span class="left">
+						<i class="fa fa-chevron-left"></i>
+					</span>
+
+					<span class="right">
+						<i class="fa fa-chevron-right"></i>
+					</span>
+				</div>
+				<div class="row">
+					<div class="item">
+						<div class="price">55$</div>
+						<a href="#">
+							<img src="./images/spa1.png" alt="">
+						</a>
+						<div class="title"><a href="#">Natural Spa</a></div>
+						<div class="select-btn">
+							<a href="#" class="btn">select</a>
+						</div>
+					</div>
+					<div class="item">
+						<div class="price">55$</div>
+						<a href="#">
+							<img src="./images/spa2.png" alt="">
+						</a>
+						<div class="title"><a href="#">Natural Spa</a></div>
+						<div class="select-btn">
+							<a href="#" class="btn">select</a>
+						</div>
+					</div>
+					<div class="item">
+						<div class="price">55$</div>
+						<a href="#">
+							<img src="./images/spa3.png" alt="">
+						</a>
+						<div class="title"><a href="#">Natural Spa</a></div>
+						<div class="select-btn">
+							<a href="#" class="btn">select</a>
+						</div>
+					</div>
+					<div class="item">
+						<div class="price">55$</div>
+						<a href="#">
+							<img src="./images/spa1.png" alt="">
+						</a>
+						<div class="title"><a href="#">Natural Spa</a></div>
+						<div class="select-btn">
+							<a href="#" class="btn">select</a>
+						</div>
+					</div>
+					<div class="item">
+						<div class="price">55$</div>
+						<a href="#">
+							<img src="./images/spa2.png" alt="">
+						</a>
+						<div class="title"><a href="#">Natural Spa</a></div>
+						<div class="select-btn">
+							<a href="#" class="btn">select</a>
+						</div>
+					</div>
+					<div class="item">
+						<div class="price">55$</div>
+						<a href="#">
+							<img src="./images/spa3.png" alt="">
+						</a>
+						<div class="title"><a href="#">Natural Spa</a></div>
+						<div class="select-btn">
+							<a href="#" class="btn">select</a>
+						</div>
+					</div>
+				</div>
 			</div>
 		</section>
 		<section class="blog-preview">
@@ -98,7 +176,7 @@
 
 						<div class="read-more">
 							<a href="#">Read more</a>
-						</div>						
+						</div>
 					</div>
 					<div class="item">
 						<a href="#">
@@ -110,8 +188,8 @@
 
 						<div class="read-more">
 							<a href="#">Read more</a>
-						</div>						
-					</div>					
+						</div>
+					</div>
 					<div class="item">
 						<a href="#">
 							<img src="./images/spa1.png" alt="">
@@ -134,7 +212,7 @@
 
 						<div class="read-more">
 							<a href="#">Read more</a>
-						</div>						
+						</div>
 					</div>
 					<div class="item">
 						<a href="#">
@@ -146,11 +224,11 @@
 
 						<div class="read-more">
 							<a href="#">Read more</a>
-						</div>						
+						</div>
 					</div>
 				</div>
 			</div>
 		</section>
 	</div>
 
-<?php include('footer.php');?>
+<?php include 'footer.php';?>

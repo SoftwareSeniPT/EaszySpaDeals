@@ -535,7 +535,7 @@ button.btn {
 .features li {
     float: left;
     min-height: 1px;
-    width: 25%;
+    width: 16.66%;
     padding-right: 20px;
     padding-left: 20px;
     text-align: center;
@@ -559,7 +559,6 @@ button.btn {
 
 .features .container {
     border-top: 1px solid #ddd;
-    border-bottom: 1px solid #ddd;
 }
 
 .features li.hair:before {
@@ -574,6 +573,92 @@ button.btn {
     background-position: -304px -15px;
 }
 
+/* special-gift */
+
+.special-gift .item {
+    padding-left: 0;
+    padding-right: 0;
+    border-color: #CCC1B9;
+    border-width: 1.5px;
+    border-style: solid;
+    background-color: white;
+}
+
+.special-gift .item .price {
+    margin: 10px 0;
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #FF6634;
+}
+
+.special-gift .item a img {
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+
+.special-gift {
+    padding: 70px 0;
+    background-color: #FFE8C9;
+}
+
+.special-gift .title {
+    font-size: 1em;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.special-gift .browse span {
+    height: 30px;
+    width: 30px;
+    border: 3px solid;
+    display: inline-block;
+    border-radius: 50%;
+    border-color: #FFCC33;
+    color: #FFCC33;
+    padding: 1px 0;
+    text-align: center;
+    cursor: pointer;
+}
+
+.special-gift .browse span:hover {
+    border-color: #FF7200;
+    color: #FF7200;
+}
+
+.special-gift .container {
+    position: relative;
+}
+.special-gift .select-btn {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.special-gift .item a.btn {
+    font-size: 1em;
+    padding: 2px 20px;
+    border-radius: 2px;
+}
+
+.special-gift .item a:hover img {
+    filter: grayscale(100%);
+}
+
+.browse {
+    position: absolute;
+    top: 0;
+    right: 15px;
+}
+
+.special-gift .row {
+    margin: 0;
+}
+
 
 /* blog-preview */
 
@@ -582,8 +667,6 @@ button.btn {
     padding-right: 0;
 }
 
-
-/* blog-preview */
 
 .blog-preview img {
     vertical-align: top;
@@ -675,6 +758,9 @@ button.btn {
     right: 15px;
 }
 
+.blog-preview .row {
+    margin: 0;
+}
 
 /* Footer */
 
@@ -732,9 +818,7 @@ footer .read-more a {
     color: #FAB781;
 }
 
-.blog-preview .row {
-    margin: 0;
-}
+
 
 
 /* Overlay */

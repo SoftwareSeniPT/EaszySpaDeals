@@ -3,7 +3,8 @@ var app = {
     offCanvasMenu: '#navbar .menu',
     init: function() {
         app.homeCycleInit();
-        app.homeCarouselInit();
+        app.homeBlogCarouselInit();
+        app.homeSpecialCarouselInit();
         app.offCanvasInit();
         app.offCanvasTrigger();
         app.handleMobileNav();
@@ -93,9 +94,7 @@ var app = {
             prev: '.browse.left',
         });
     },
-    homeCarouselInit: function() {
-
-
+    homeBlogCarouselInit: function() {
         // browse
         var owl = jQuery('.blog-preview .row');
 
@@ -110,6 +109,25 @@ var app = {
 
         // Go to the previous item
         jQuery('.blog-preview .browse .left').click(function() {
+            owl.trigger('prev.owl.carousel', [300]);
+        })
+
+    },
+    homeSpecialCarouselInit: function() {
+        // browse
+        var owl = jQuery('.special-gift .row');
+
+        owl.owlCarousel({
+            margin: 40
+        });
+
+        // Go to the next item
+        jQuery('.special-gift .browse .right').click(function() {
+            owl.trigger('next.owl.carousel');
+        })
+
+        // Go to the previous item
+        jQuery('.special-gift .browse .left').click(function() {
             owl.trigger('prev.owl.carousel', [300]);
         })
 
