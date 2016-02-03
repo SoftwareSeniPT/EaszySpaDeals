@@ -1381,6 +1381,10 @@ section.review-form h3 {
     height: 32px;
 }
 
+.cart-button button:hover {
+    background-color: #BB4312;
+}
+
 .cart-button select {
     height: 32px;
     display: inline-block;
