@@ -33,9 +33,39 @@
 			<div class="row">
 				<!-- Main Content -->
 				<div class="item" id="main-content">
-					<section class="review">
-						<h3>Review</h3>
+					<section class="product-details">
+						<div class="title">Pedicure ( 60 minutes )</div>
+						
+						<div class="price">
+							<span>Rp. 287,500</span> Rp. 143,750
+						</div>
 
+						<div class="cart-button">
+							<select name="" id="">
+								<option value="3">1</option>
+								<option value="3">2</option>
+								<option value="3">3</option>
+								<option value="3">4</option>
+							</select>
+							<button>Add to Cart</button>
+						</div>
+
+						<div class="provider">
+							Provided by EazySpaDeals
+						</div>
+
+						<div class="category">
+							Category: HAND & FOOT CARE
+						</div>
+
+					</section>
+
+					<section class="tabs" id="tabs">
+						<span data-target="#description">Description</span>
+						<span data-target="#review" class="active">Review (0)</span>
+					</section>
+
+					<section class="review" id="review">
 						<div class="review-item">
 							<div class="name">Hendra Buzz</div>
 							<div class="date">May 21 2015 | 09: 45</div>
@@ -90,6 +120,23 @@
 							<button>Submit</button>
 						</div>
 					</section>		
+
+					<section class="related-product">
+						<h3>Related Products</h3>
+
+						<div class="related-product-item">
+							<img src="./images/spa3.png" alt="">
+							<div class="price">
+								<span>Rp. 287,500</span> Rp. 143,750
+							</div>
+							<div class="title">
+								Manicure (60 minutes)
+							</div>
+							<div class="button">
+								<button>Add to cart</button>
+							</div>
+						</div>
+					</section>
 
 				</div>
 			</div>
