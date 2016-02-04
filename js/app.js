@@ -96,7 +96,7 @@ var app = {
     },
     homeBlogCarouselInit: function() {
         // browse
-        var owl = jQuery('.blog-preview .row');
+        var owl = jQuery('.home .blog-preview .row');
 
         owl.owlCarousel({
             margin: 40

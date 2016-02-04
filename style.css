@@ -1452,3 +1452,134 @@ section.review-form h3 {
 section.related-product {
     margin-top: 50px;
 }
+
+.blog .blog-preview {
+    padding-top: 0;
+}
+
+.blog #main-content .item {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.blog .blog-preview img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.blog .blog-preview .item a:hover img {
+    -webkit-transform: none;
+    transform: none;
+}
+
+.blog #main-content .item {
+    margin-bottom: 20px;
+}
+
+.blog #main-content .item:last-child {
+    margin-bottom: 0;
+}
+
+.blog #main-content:after {
+    display: none;
+}
+
+.blog .content-wrapper .container > .row > .item {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.blog .content-wrapper .container > .row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.search-form input[type="text"] {
+    border: 1px solid #ddd;
+    width: 100%;
+    margin: 0;
+    height: 40px;
+}
+
+.search-form {
+    position: relative;
+    padding-right: 40px;
+}
+
+.search-form button {
+    background: #fe7201;
+    color: #fff;
+    border: 0;
+    height: 40px;
+    padding: 0 15px;
+    right: 0;
+    top: 0;
+    position: absolute;
+}
+
+section.popular-post {
+    padding: 15px;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+
+.blog #sidebar h4 {
+    font-weight: 400;
+    color: #FE7201;
+}
+
+section.popular-post img {
+    height: 65px;
+    width: 65px;
+    object-fit: cover;
+    float: left;
+    margin-right: 7px;
+}
+
+section.popular-post .content {
+    overflow: hidden;
+}
+
+section.popular-post .content .date {
+    font-size: 13px;
+    line-height: 1;
+    color: #848484;
+}
+
+section.popular-post .content .title {
+    line-height: 1.3;
+}
+
+section.popular-post .content .readmore a {
+    font-size: 13px;
+    color: #fe7201;
+    vertical-align: top;
+}
+
+section.popular-post .content .readmore {
+    line-height: 1;
+}
+
+section.popular-post .popular-item {
+    margin-top: 15px;
+}
+
+section.archives {
+    border: 1px solid #ddd;
+    padding: 15px;
+}
+
+section.archives ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+section.archives ul ul {
+    margin-left: 10px;
+}
+
+section.archives ul ul li:before {
+    content: ">"
+}
